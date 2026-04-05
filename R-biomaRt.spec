@@ -1,14 +1,15 @@
 %define		packname	biomaRt
 
+%undefine	_debugsource_packages
 Summary:	R Interface to BioMart databases
 Name:		R-%{packname}
-Version:	2.18.0
-Release:	2
+Version:	2.66.2
+Release:	1
 License:	Artistic 2.0
 Group:		X11/Applications
-Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	2692dafbad92824a549ed451d5fccabc
-URL:		http://www.bioconductor.org/packages/release/bioc/html/biomaRt.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	aa38b947416ac67ae669d9cf3e319de6
+URL:		https://bioconductor.org/packages/release/bioc/html/biomaRt.html
 BuildRequires:	R-cran-RCurl
 BuildRequires:	R-cran-XML
 BuildRequires:	R
